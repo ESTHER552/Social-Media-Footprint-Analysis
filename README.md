@@ -11,17 +11,17 @@ An OSINT (Open-Source Intelligence) assessment of the publicly available social 
 Personal accounts owned by the researcher (self-assessment only — no third-party or unauthorized targets).
 
 ### Install Sherlock (Kali built-in package)
-sudo apt update && sudo apt install sherlock -y
+- sudo apt update && sudo apt install sherlock -y
 
 ### Install Maigret's build prerequisites
-sudo apt update && sudo apt install -y libcairo2-dev pkg-config python3-dev build-essential pipx
+- sudo apt update && sudo apt install -y libcairo2-dev pkg-config python3-dev build-essential pipx
 
 ### Set up pipx and install Maigret
-pipx ensurepath
-pipx install maigret
+- pipx ensurepath
+- pipx install maigret
 
 ### Run a full search and generate an HTML/PDF dossier
-maigret {name} --html --pdf
+- maigret {name} --html --pdf
 
 ## Screenshots
 <img width="1920" height="961" alt="maigret1" src="https://github.com/user-attachments/assets/4986f720-f948-4658-bfd3-b847cf44a419" />
