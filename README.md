@@ -22,3 +22,8 @@ pipx install maigret
 
 ### Run a full search and generate an HTML/PDF dossier
 maigret {name} --html --pdf
+
+## Screenshots
+<img width="1920" height="961" alt="maigret1" src="https://github.com/user-attachments/assets/4986f720-f948-4658-bfd3-b847cf44a419" />
+
+<img width="1920" height="961" alt="sherlock1" src="https://github.com/user-attachments/assets/3e6542bf-aa99-4646-b727-3cd6c7df8299" />
